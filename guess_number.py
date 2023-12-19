@@ -1,5 +1,7 @@
 import random
-r = random.randint(1, 10)
+min = int(input("descide min: "))
+max = int(input("descide max: "))
+r = random.randint(min, max)
 count = 0
 while True:
     gus = int(input("Guess a number: "))
