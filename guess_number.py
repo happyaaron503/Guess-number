@@ -7,3 +7,7 @@ while True:
         break
     else:
         print("Ur wrong! Keep guessing")
+        if r > gus:
+            print("Too small")
+        elif r < gus:
+            print("Too big")
